@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr">
+    <html lang="fr" className="bg-coralC">
       <body className={poppins.className}>
         <div className="flex flex-col min-h-screen">
           <Header />
